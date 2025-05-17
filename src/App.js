@@ -23,16 +23,13 @@ function App() {
             <Route path="/contact">
               contact
             </Route>
-            <Route path="/">
-              Home
-            </Route>
             <Route path="/login">
               <Login/>
             </Route>
-            <Route path="*">
-              404 Not Found
+            <Route path="/">
+              Home
             </Route>
-          </Switch>
+        </Switch>
       </div>
     </Router>
   );
